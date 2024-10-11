@@ -1,0 +1,12 @@
+fjell = [
+    ("Galdhøpiggen", 2469),
+    ("Glittertind", 2465),
+    ("Store Skagastølstind", 2405),
+    ("Vesle Galdhøpiggen", 2369),
+    ("Store Styggedalstinden", 2387)
+]
+print("Fjell,", "Høyde (Moh.)")
+print("-"*18)
+for navn, høyde in fjell:
+    forkortet_navn = navn[:3] + "…" + navn[-3:]
+    print(f"{forkortet_navn} {høyde}")

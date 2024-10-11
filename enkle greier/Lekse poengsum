@@ -1,0 +1,16 @@
+poengsum=float(input("Hva ble poengsummen din? "))
+
+if 0 < poengsum <= 20:
+    print("Du fikk karakter 1 :(")
+elif 20 < poengsum <= 40:
+    print("Du fik karakter 2")
+elif 40 < poengsum <= 60:
+    print("Du fikk karakter 3")
+elif 60 < poengsum <= 80:
+    print("Du fik karakter 4")
+elif 80 < poengsum <= 90:
+    print("Du fikk karakter 5")
+elif 90 < poengsum <= 100:
+    print("Du fikk karakter 6 :)")
+else :
+    print("Skriv en poengsum fra 1-100")
